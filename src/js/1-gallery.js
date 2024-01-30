@@ -85,12 +85,7 @@ return `<li class ="gallery-item">
 
  gallery.innerHTML = markup;
  const lightbox= new SimpleLightbox(`.gallery a`, {
-    captions: true,
-    captionType: `attr`,
     captionsData: `alt`,
-    captionPosition: `bottom`,
-    captionSelector: "img",
     captionDelay: 250,
  });
- lightbox.options('show.simplelightbox');
 
